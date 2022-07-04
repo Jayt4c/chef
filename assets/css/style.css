@@ -1,0 +1,56 @@
+a{
+    color: #fff;
+}
+#service-align{
+    margin: 0 2%;
+    justify-content: center;
+}
+.header-area .main-nav img, .logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+.header-area .main-nav .logo {
+    color: brown;
+}
+.service-content {
+    margin-top: 40px;
+}
+.thumb img{
+    height: 300px;
+    width: 100%;
+}
+.thumb img:hover {
+    height: 350px;
+    width: 400px;
+}
+.service-item{
+    width: 100%;
+    padding: 20px;
+}
+.down-content a {
+    color: brown;
+    font-size: 20px;
+}
+.down-content a:hover {
+    font-size: 25px;
+}
+
+
+#reverse{
+    flex-direction: row-reverse;
+}
+.left-text-content{
+    flex-direction: column-reverse;
+}
+.col-4 img {
+    height: 100px;
+    border-radius: 20%;
+}
+
+
+#offers #tabs ul li a:hover {
+    color: brown;
+    font-size: 17px;
+}
