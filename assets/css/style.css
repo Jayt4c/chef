@@ -53,3 +53,9 @@ a{
     color: brown;
     font-size: 17px;
 }
+.section-heading h5 {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}

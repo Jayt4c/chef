@@ -389,7 +389,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: brown;
   display: block;
   position: absolute;
   width: 30px;
@@ -409,7 +409,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: brown;
   display: block;
   position: absolute;
   width: 30px;
@@ -635,9 +635,10 @@ banner
 
 #top .left-content .inner-content {
   position: absolute;
-  top: 50%;
+  top: 75%;
   transform: translate(-50%, -50%);
   left: 50%;
+  z-index: 10;
 }
 
 #top .left-content h4 {
